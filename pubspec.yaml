@@ -10,7 +10,11 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-  zego_uikit_prebuilt_call: ^4.9.0
+  zego_uikit_prebuilt_call: 4.9.0
+
+dependency_overrides:
+  zego_uikit: 2.14.0
+  zego_plugin_adapter: 2.12.0
 
 dev_dependencies:
   flutter_test:
