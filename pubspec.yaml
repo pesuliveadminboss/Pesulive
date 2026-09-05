@@ -1,4 +1,4 @@
-name: pesulive
+4name: pesulive
 description: Pesu Live Video Calling Application
 publish_to: 'none'
 version: 1.0.0+1
@@ -10,7 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-  zego_uikit_prebuilt_call: 4.1.15
+  zego_uikit_prebuilt_call: ^4.9.0
 
 dev_dependencies:
   flutter_test:
