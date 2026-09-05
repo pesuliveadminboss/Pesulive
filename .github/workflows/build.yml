@@ -1,4 +1,4 @@
-name: Build PesuLive APK
+name: Build pesuLive APK
 
 on:
   push:
