@@ -1,4 +1,4 @@
-name: Build pesuLive APK
+name: Build PesuLive APK
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
 
       - name: Recreate Android Project Files
         run: |
-          flutter create . --platforms=android --org com.example.pesulive
+          flutter create . --platforms=android --org com.example.pesulive --project-name pesulive
 
       - name: Get Dependencies
         run: flutter pub get
